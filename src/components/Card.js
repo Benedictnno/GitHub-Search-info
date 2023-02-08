@@ -28,10 +28,10 @@ const Card = () => {
       <p className="bio">{bio}</p>
       <div className="links">
         <p>
-          <MdBusiness /> {company}
+          <MdBusiness/> {company}
         </p>
         <p>
-          <MdLocationOn /> {location || 'earth'}
+          <MdLocationOn/> {location || 'earth'}
         </p>
       {blog && <a href={`https://${blog}`}><MdLink/> {blog }</a>}
       </div>
